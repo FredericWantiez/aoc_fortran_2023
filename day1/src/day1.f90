@@ -74,7 +74,6 @@ contains
     end do
     close(unit=fileunit, iostat=iostat)
     if (iostat /= 0) print *, "Error closing file"
-    print *, count
   end function process_data
 
 end module day1

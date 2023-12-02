@@ -8,5 +8,6 @@ program main
   print *, 'Enter input filename:'
   read *, filename
   count = process_data(filename)
+  print *, "Result: ", count
   
 end program main
